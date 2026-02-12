@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Fantasy | UI Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="nav-left">
+        <img src="images/logo.png" alt="Dark Fantasy Logo" class="logo-img">
+    </div>
+
+    <nav class="nav-center">
+        <ul>
+            <li><a href="#">Our Products</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-right">
+        <span class="search-icon"><img src="images/search.png"></span>
+        <span class="search-text">Search</span>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>FULFILL FANTASY<br>OF EVERY HEART</h1>
+        <p>Discover the World of Fantasy<br>with just a bite!</p>
+        <a href="#" class="btn">Explore Recipe Ideas</a>
+    </div>
+    <div class="hero-right">
+        <img src="images/Hero.jpg">
+    </div>
+</section>
+
+<section class="bites-section">
+    <h2 class="section-title">Bites of Fantasy</h2>
+    <div class="tabs">
+        <button class="tab active">All</button>
+        <button class="tab">Desserts</button>
+        <button class="tab">Fills</button>
+        <button class="tab">More</button>
+    </div>
+
+    <div class="carousel">
+        <button class="arrow left">&#10094;</button>
+
+        <div class="cards">
+            <div class="card desserts">
+                <img src="images/Choco chunks.jpg" alt="Choco Chunks">
+            </div>
+
+            <div class="card desserts">
+                <img src="images/Choco Nut Dipped.jpg" alt="Choco Nut">
+            </div>
+
+            <div class="card fills">
+                <img src="images/Vanilla Fills.jpg" alt="Vanilla Fills">
+            </div>
+
+            <div class="card fills">
+                <img src="images/Coffee Fills.jpg" alt="Coffee Fills">
+            </div>
+
+            <div class="card fills">
+                <img src="images/Choco Fills.jpg" alt="Choco Fills">
+            </div>
+
+            <div class="card fills">
+                <img src="images/Choco Nut Fills.jpg" alt="Choco Nut Fills">
+            </div>
+
+            <div class="card fills">
+                <img src="images/Choco Chip.jpg" alt="Choco Chips">
+            </div>
+
+            <div class="card more">
+                <img src="images/Vanilla Creme.jpg" alt="Vanilla Creme">
+            </div>
+
+            <div class="card more">
+                <img src="images/Choco Creme.jpg" alt="Choco Creme">
+            </div>
+
+            <div class="card more">
+                <img src="images/Bourbon.jpg" alt="Bourbon">
+            </div>
+
+            <div class="card more">
+                <img src="images/Yumfills Pie.jpg" alt="Yumfills Pie">
+            </div>
+
+            <div class="card more">
+                <img src="images/Big Fills.jpg" alt="Big Fills">
+            </div>
+
+            <div class="card more">
+                <img src="images/Chocolate Shake.jpg" alt="Chocolate Shake">
+            </div>
+        </div>
+
+        <button class="arrow right">&#10095;</button>
+    </div>
+
+    <div class="dots">
+    </div>
+
+    <button class="view-range-btn">View range</button>
+</section>
+
+<section class="fantasy-video-section">
+  <h2 class="fantasy-heading">Dive into your ultimate Fantasy!</h2>
+
+  <div class="video-wrapper">
+    <video controls poster="images/thumbnail.jpg">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<section class="quiz-section">
+    <h2 class="quiz-title">What’s your cookie personality?</h2>
+
+    <div class="progress" id="progressSteps">
+        <span class="step active">1</span>
+        <span class="line"></span>
+        <span class="step">2</span>
+        <span class="line"></span>
+        <span class="step">3</span>
+        <span class="line"></span>
+        <span class="step cookie-step"><img src="images/cookie.png"></span>
+    </div>
+
+    <div class="quiz-step active-step">
+        <p class="quiz-question">What would be your fantasy vacation?</p>
+        <div class="options">
+        <label class="option">
+            <input type="radio" name="q1">
+            <span class="custom-radio"></span>
+            Las Vegas
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q1">
+            <span class="custom-radio"></span>
+            Paris
+        </label>
+
+        <label class="option">
+            <input type="radio" name="q1">
+            <span class="custom-radio"></span>
+            Maldives
+        </label>
+    </div>
+    </div>
+
+    <div class="quiz-step">
+        <p class="quiz-question">Who would be your fantasy partner for the trip?</p>
+        <div class="options">
+        <label class="option">
+            <input type="radio" name="q2">
+            <span class="custom-radio"></span>
+            Friends
+        </label>
+        <label class="option">
+            <input type="radio" name="q2">
+            <span class="custom-radio"></span>
+            Special Someone
+        </label>
+        <label class="option">
+            <input type="radio" name="q2">
+            <span class="custom-radio"></span>
+            Family
+        </label>
+        </div>
+    </div>
+
+    <div class="quiz-step">
+        <p class="quiz-question">What fantasy would you choose?</p>
+        <div class="options">
+        <label class="option">
+            <input type="radio" name="q3">
+            <span class="custom-radio"></span>
+            Party
+        </label>
+        <label class="option">
+            <input type="radio" name="q3">
+            <span class="custom-radio"></span>
+            Explore
+        </label>
+        <label class="option">
+            <input type="radio" name="q3">
+            <span class="custom-radio"></span>
+            Relax
+        </label>
+        </div>
+    </div>
+
+    <div class="quiz-step">
+        <p class="quiz-question">What's your style?</p>
+        <div class="options">
+        <label class="option">
+            <input type="radio" name="q4">
+            <span class="custom-radio"></span>
+            Bold and Chic
+        </label>
+        <label class="option">
+            <input type="radio" name="q4">
+            <span class="custom-radio"></span>
+            Smart and Trendy
+        </label>
+        <label class="option">
+            <input type="radio" name="q4">
+            <span class="custom-radio"></span>
+            Casual
+        </label>
+        </div>
+    </div>
+
+    <button class="next-btn" id="nextBtn">Next</button>
+    <div class="quiz-result" id="quizResult" style="display: none;">
+
+    <div class="result-container">
+
+        <div class="result-text">
+            <h2>Your Cookie Personality...</h2>
+            <h3>Choco-loco</h3>
+            <p>Every day is full of love for you</p>
+
+            <div class="result-buttons">
+                <button class="buy-btn">Buy Now</button>
+                <button class="retry-btn" id="retryBtn">Retry</button>
+            </div>
+        </div>
+
+        <div class="result-image">
+            <img src="images/choco-loco.jpg" alt="cookie">
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<section class="daytime-fantasy">
+
+  <div class="daytime-left">
+    <h1>Fantasy anytime, anywhere</h1>
+    <p class="swipe"><b>Swipe to indulge</b></p>
+
+    <div class="arc-slider">
+        <img src="images/sun.png" class="fixed-sun">
+        <div class="arc"></div>
+        <img src="images/moon.png" class="fixed-moon">
+
+        <div class="moving-icon">
+            <img src="images/sun.png" id="timeIcon">
+        </div>
+    </div>
+
+    <img src="images/Half Cookie.jpg" class="cookie-img">
+  </div>
+
+<div class="daytime-right">
+  <div class="image-box">
+    <img src="images/Morning kickstarter.jpg" alt="product">
+    <div class="tag">Morning Kickstarter</div>
+  </div>
+</div>
+</section>
+
+<section class="recipes-section">
+  <h2>Brighten your day with Dark Fantasy</h2>
+  <p>Create indulgent recipes, post it with <b>#darkfantasycreations</b> and get featured on our website!</p>
+
+  <div class="slider-wrapper">
+
+    <button class="arrow left">&#10094;</button>
+
+    <div class="slider-container" id="slider">
+
+      <div class="recipe-card">
+        <img src="images/Sunfeast Dark Fantasy Ice Cream Sandwich.jpg">
+        <span class="level easy">Easy</span>
+        <h3>Sunfeast Dark Fantasy<br>Ice Cream Sandwich</h3>
+        <p class="time">Time: 10 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Parfait.jpg">
+        <span class="level easy">Easy</span>
+        <h3>Sunfeast Dark Fantasy<br>Parfait</h3>
+        <p class="time">Time: 15 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Kheer.jpg">
+        <span class="level hard">Hard</span>
+        <h3>Sunfeast Dark Fantasy<br>Kheer</h3>
+        <p class="time">Time: 70 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Mug-Cake_df.jpg">
+        <span class="level hard">Easy</span>
+        <h3>Sunfeast Dark Fantasy<br>Mug Cake</h3>
+        <p class="time">Time: 10 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Milkshake.jpeg">
+        <span class="level hard">Easy</span>
+        <h3>Sunfeast Dark Fantasy<br>Chunky Milkshake</h3>
+        <p class="time">Time: 15 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Kulfi.jpeg">
+        <span class="level hard">Moderate</span>
+        <h3>Sunfeast Dark Fantasy<br>Kulfi</h3>
+        <p class="time">Time: 30 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/CupCakes.jpeg">
+        <span class="level hard">Moderate</span>
+        <h3>Sunfeast Dark Fantasy<br>CupCakes</h3>
+        <p class="time">Time: 35 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Mousse.jpeg">
+        <span class="level hard">Easy</span>
+        <h3>Sunfeast Dark Fantasy<br>Mousse</h3>
+        <p class="time">Time: 20 mins</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="images/Caramel Tart.jpeg">
+        <span class="level hard">Moderate</span>
+        <h3>Sunfeast Dark Fantasy<br>Salted Caramel Tart</h3>
+        <p class="time">Time: 40 mins</p>
+      </div>
+
+    </div>
+
+    <button class="arrow right">&#10095;</button>
+
+  </div>
+
+  <div class="page-dots">
+    <span class="active"></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="view-btn-wrap">
+    <button class="view-btn">View All</button>
+  </div>
+
+</section>
+
+<section class="spotlight-section">
+    <h2>Fantasy World In Spotlight</h2>
+    <p class="spotlight-sub">
+        Share your love for Dark Fantasy cookies using
+        <span>#darkfantasycreations</span> and get featured on our social media handles!
+    </p>
+
+    <div class="spotlight-grid">
+        <div class="spot-card"><img src="images/s1.jpg"></div>
+        <div class="spot-card"><img src="images/s2.jpg"></div>
+        <div class="spot-card"><img src="images/s3.jpg"></div>
+        <div class="spot-card"><img src="images/s4.jpg"></div>
+        <div class="spot-card"><img src="images/s5.jpg"></div>
+        <div class="spot-card"><img src="images/s6.jpg"></div>
+        <div class="spot-card"><img src="images/s7.jpg"></div>
+        <div class="spot-card"><img src="images/s8.jpg"></div>
+    </div>
+
+    <div class="follow-wrap">
+        <button class="follow-btn">Follow Us</button>
+    </div>
+</section>
+
+</section>
+
+<footer class="df-footer">
+
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="images/itc-logo.png" alt="">
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <a href="#">About Us</a>
+                <a href="Contact Form.html">Contact Us</a>
+                <a href="#">Our Products</a>
+                <a href="#">FAQs</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <span>© 2026 Dark Fantasy!. All Rights Reserved.</span>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
